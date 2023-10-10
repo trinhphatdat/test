@@ -44,14 +44,6 @@ namespace TestSoPhuc
                 Console.WriteLine(" z1 + z2 = {0} + {1}*i ", sumZ.phanThuc, sumZ.phanAo);
                 return sumZ;
             }
-            //public SoPhuc Sum2SoPhuc(SoPhuc z1,SoPhuc z2)
-            //{
-            //    SoPhuc sumZ = new SoPhuc();
-            //    sumZ.phanThuc = z1.phanThuc + z2.phanThuc;
-            //    sumZ.phanAo = z1.phanAo + z2.phanAo;
-            //    Console.WriteLine(" z1 + z2 = {0} + {1}*i ", sumZ.phanThuc, sumZ.phanAo);
-            //    return sumZ;
-            //}
 
         }   
         static void Main(string[] args)
@@ -65,11 +57,6 @@ namespace TestSoPhuc
             sophuc2.setPhanThuc(6);
             sophuc2.setPhanAo(6);
             sophuc2.PrintSoPhuc();
-
-            /*sophuc1.Sum2SoPhuc(sophuc2);*/ // đỡ tốn vùng nhớ mới
-
-            //SoPhuc sophuc3 = new SoPhuc();        //tốn thêm 1 vùng nhớ mới
-            //sophuc3.Sum2SoPhuc(sophuc1, sophuc2);
 
             Console.ReadKey();
         }
